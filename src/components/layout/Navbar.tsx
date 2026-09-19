@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { personal } from '../../data/portfolio';
 
 const navLinks = [
   { href: '#home', label: 'Home' },
@@ -110,7 +111,7 @@ export default function Navbar() {
           {/* Right actions */}
           <div className="flex items-center gap-3">
             <a
-              href="/resume.pdf"
+              href={personal.resumeUrl}
               download
               id="nav-download-resume"
               className="hidden md:flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold text-white transition-all duration-200 hover:scale-105"
@@ -180,7 +181,7 @@ export default function Navbar() {
             ))}
             <div className="mt-3 pt-3" style={{ borderTop: '1px solid rgba(59,130,246,0.15)' }}>
               <a
-                href="/resume.pdf"
+                href={personal.resumeUrl}
                 download
                 className="block text-center px-4 py-3 rounded-xl text-sm font-semibold text-white"
                 style={{ background: 'linear-gradient(135deg, #3b82f6, #8b5cf6)' }}

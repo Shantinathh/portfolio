@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
+import { personal } from '../../data/portfolio';
 
 // Animated particles background
 function ParticleField() {
@@ -378,7 +379,7 @@ export default function Hero() {
                 View Projects
               </button>
               <a
-                href="/resume.pdf"
+                href={personal.resumeUrl}
                 download
                 id="hero-download-resume"
                 className="px-8 py-3 rounded-xl font-semibold text-white transition-all duration-300 hover:scale-105 glass"
@@ -465,7 +466,7 @@ export default function Hero() {
                 <div className="absolute bottom-0 right-0 w-6 h-6 border-b-2 border-r-2 border-blue-400 rounded-br-xl" />
 
                 <img
-                  src="/profile.jpg"
+                  src={personal.profilePhoto}
                   alt="Shantinath Patil — AI Engineer"
                   className="w-56 h-56 md:w-64 md:h-64 object-cover rounded-xl"
                   style={{ objectPosition: 'top' }}

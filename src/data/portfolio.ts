@@ -19,8 +19,8 @@ export const personal = {
   phone: "9380861446",
   github: "https://github.com/Shantinathh",
   linkedin: "https://www.linkedin.com/in/shantinath-patil-8a7b842b3/",
-  resumeUrl: "/resume.pdf",
-  profilePhoto: "/profile.jpg",
+  resumeUrl: `${import.meta.env.BASE_URL}resume.pdf`,
+  profilePhoto: `${import.meta.env.BASE_URL}profile.jpg`,
 };
 
 export const skills = [
