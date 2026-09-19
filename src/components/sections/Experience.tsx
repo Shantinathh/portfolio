@@ -140,7 +140,26 @@ export default function Experience() {
                   </div>
 
                   {/* Description */}
-                  <p className="text-sm text-slate-300 leading-relaxed">{exp.description}</p>
+                  <p className="text-sm text-slate-300 leading-relaxed whitespace-pre-line">{exp.description}</p>
+
+                  {/* Skills badges */}
+                  {'skills' in exp && Array.isArray(exp.skills) && exp.skills.length > 0 && (
+                    <div className="flex flex-wrap gap-1.5 mt-4 pt-3 border-t border-slate-800/80">
+                      {exp.skills.map((skill: string) => (
+                        <span
+                          key={skill}
+                          className="text-[11px] font-medium px-2.5 py-0.5 rounded-full"
+                          style={{
+                            background: `${exp.color}15`,
+                            color: exp.color,
+                            border: `1px solid ${exp.color}30`,
+                          }}
+                        >
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             </motion.div>

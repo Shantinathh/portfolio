@@ -59,9 +59,11 @@ export default function About() {
               <p>
                 My journey in AI spans the full spectrum — from building classical{' '}
                 <span className="text-blue-300 font-medium">supervised and unsupervised ML models</span> to deploying{' '}
-                <span className="text-purple-300 font-medium">Generative AI applications</span> powered by LLMs. I've gained real-world experience through an{' '}
-                <span className="text-cyan-300 font-medium">NLP Internship</span> where I built context-aware conversational systems, and as a{' '}
-                <span className="text-yellow-300 font-medium">Google Gemini Student Ambassador</span> promoting AI literacy.
+                <span className="text-purple-300 font-medium">Generative AI applications</span> powered by LLMs. I've gained real-world industry experience as a{' '}
+                <span className="text-emerald-300 font-medium">Machine Learning Intern at FlyRank AI</span>, an{' '}
+                <span className="text-amber-300 font-medium">AWS Student Builder Group Leader</span>, a{' '}
+                <span className="text-yellow-300 font-medium">Google Gemini Student Ambassador</span> promoting AI adoption, and through an{' '}
+                <span className="text-cyan-300 font-medium">NLP Internship at ICCC</span> developing conversational systems.
               </p>
               <p>
                 I'm particularly passionate about{' '}

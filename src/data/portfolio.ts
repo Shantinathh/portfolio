@@ -100,26 +100,54 @@ export const skills = [
 
 export const experience = [
   {
+    id: "flyrank-ai",
+    company: "FlyRank AI",
+    role: "Machine Learning Intern",
+    period: "Sep 2026 – Present",
+    location: "Hybrid",
+    type: "Internship",
+    description:
+      "Engaged in developing AI and data-driven solutions at FlyRank AI. Contributing to real-world projects while expanding expertise across Machine Learning, Deep Learning, and end-to-end intelligent systems.",
+    skills: ["Machine Learning", "Deep Learning", "AI Solutions"],
+    logo: "⚡",
+    color: "#10b981",
+  },
+  {
+    id: "aws-leader",
+    company: "Amazon Web Services (AWS)",
+    role: "AWS Student Builder Group Leader",
+    period: "Sep 2026 – Present",
+    location: "India · Remote",
+    type: "Internship",
+    description:
+      "• Selected as an AWS Student Builder Group Leader to lead and support student-focused cloud learning initiatives.\n• Organizing technical sessions, workshops, and hands-on activities focused on AWS, AI/ML, and Generative AI.\n• Building a collaborative student community through peer learning, project development, and knowledge sharing.",
+    skills: ["AWS", "AI/ML", "Generative AI", "Community Leadership"],
+    logo: "☁️",
+    color: "#f59e0b",
+  },
+  {
     id: "google-gemini",
     company: "Google Gemini",
     role: "Google Gemini Student Ambassador",
     period: "May 2026 – Present",
-    location: "Karnataka, India",
+    location: "Karnataka, India · Remote",
     type: "Ambassador",
     description:
-      "Represent and advocate for Google Gemini AI tools within the student community, promoting AI literacy and adoption.",
+      "Represent and advocate for Google Gemini AI tools within the student community, driving program creation, workshops, and promoting AI literacy and adoption.",
+    skills: ["Google Gemini", "Generative AI", "Program Creation", "AI Literacy"],
     logo: "🌟",
     color: "#4285F4",
   },
   {
-    id: "ccc-intern",
-    company: "CCC Innovation and Incubation Center",
+    id: "iccc-intern",
+    company: "ICCC Innovation and Incubation Center",
     role: "NLP Intern",
     period: "2024",
     location: "India",
     type: "Internship",
     description:
       "Developed an NLP-based chatbot applying natural language processing techniques to enable automated, context-aware conversational interactions.",
+    skills: ["NLP", "Chatbots", "Python", "Conversational AI"],
     logo: "🤖",
     color: "#06b6d4",
   },
